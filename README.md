@@ -1,0 +1,14 @@
+# user 16 VVR3S5V-25-ST7.3 aa3747 release-keys
+- manufacturer: motorola
+- platform: sun
+- codename: roadstr
+- flavor: user
+- release: 16
+- id: VVR3S5V-25-ST7.3
+- incremental: aa3747
+- tags: release-keys
+- fingerprint: motorola/roadstr_g/roadstr:15/VVR3S5V-25-ST7.3/aa3747:user/release-keys
+- is_ab: true
+- brand: motorola
+- branch: user-16-VVR3S5V-25-ST7.3-aa3747-release-keys
+- repo: motorola_roadstr_dump
