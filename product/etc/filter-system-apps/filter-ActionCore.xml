@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filter-system-apps>
+    <module name="ActionCore" action="enable"  prop="ro.product.name.canonical" value="aito25;arcfox25"/>
+    <module name="ActionCore" action="disable" prop="ro.mot.actioncore.enable"  value="false"/>
+</filter-system-apps>

@@ -1,0 +1,1 @@
+{"name": "genie_llama3.2-3b-instruct_htp_prompt_magic_words", "version": "1.0.1.1", "manifest_version": "0.1.0.0", "binaries": [{"name": "prompts_rewrite.yaml", "version": "1.0.1.1", "size": 16017, "hash": "07077f319402790afdc0c7b65284c7e709ce2241cbc368c6e0cf2b94b16e7bba", "encrypted": false}]}

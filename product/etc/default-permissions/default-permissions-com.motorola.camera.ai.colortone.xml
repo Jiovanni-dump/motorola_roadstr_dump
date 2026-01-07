@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exceptions>
+    <exception package="com.motorola.camera.ai.colortone">
+        <permission name="android.permission.READ_MEDIA_IMAGES" fixed="false"/>
+        <permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
+    </exception>
+</exceptions>

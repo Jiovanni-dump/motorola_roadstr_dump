@@ -1,0 +1,4 @@
+on early-init && property:ro.product.name.canonical="vienna"
+   setprop ro.mot.uxcore.enable false
+on early-init
+   setprop ro.mot.uxcore.enable true

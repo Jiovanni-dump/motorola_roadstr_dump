@@ -1,0 +1,20 @@
+{
+   "version": 1,
+   "lora-version": 3,
+   "alpha-tensor-name" : "lora_alpha",
+   "adapters": [
+      {
+         "version": 1,
+         "name": "cmu_ja",
+         "alphas": [
+            "alpha0"
+         ],
+         "alpha-tensor-value": [
+            2.0
+         ],
+         "bin-sections": [
+            "ar128_cl2048_2_of_3-ar32_cl2048_2_of_3_cmu_ja.bin"
+         ]
+      }
+   ]
+}

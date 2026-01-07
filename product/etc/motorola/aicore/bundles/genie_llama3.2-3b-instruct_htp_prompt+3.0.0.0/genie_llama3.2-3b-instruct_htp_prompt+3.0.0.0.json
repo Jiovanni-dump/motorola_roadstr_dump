@@ -1,0 +1,1 @@
+{"name": "genie_llama3.2-3b-instruct_htp_prompt", "version": "3.0.0.0", "manifest_version": "0.1.0.0", "binaries": [{"name": "prompts_local_cmu.yaml", "version": "3.0.0.0", "size": 4420, "hash": "093912731ef792af34f3d919ea7b30df3f0d3568e9a54f4d412f80a99cc46b10", "encrypted": false}]}

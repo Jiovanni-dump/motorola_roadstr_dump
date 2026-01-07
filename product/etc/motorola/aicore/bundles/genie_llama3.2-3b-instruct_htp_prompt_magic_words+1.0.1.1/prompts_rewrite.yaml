@@ -1,0 +1,160 @@
+rewrite_funny_brief: |-
+  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+  Rephrase the sentence "{{USER_TEXT}}". The final message should be Funny and Brief.😊 The tone should Be Humorous and Playful.😊 It should Add humor and levity.😊 Don't be too creative. Don't hallucinate. Provide only the final message.The length of sentence should be Short and concise. Do not answer the question, only rephrase de question. If the sentence is a question, do not answer the question but reformulate the question. No answers. {{LANGUAGE_INSTRUCTION}}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+rewrite_funny_medium: |-
+  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+  Rephrase the sentence "{{USER_TEXT}}". The final message should be Funny and Medium.😊 The tone should Be Humorous, Lighthearted, and Playful.😊 It should Add humor and levity.😊 Don't be too creative. Don't hallucinate. Provide only the final message.The length of sentence should be Moderate. Do not answer the question, only rephrase de question. If the sentence is a question, do not answer the question but reformulate the question. No answers. {{LANGUAGE_INSTRUCTION}}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+rewrite_funny_long: |-
+  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+  You are an AI assistant and your objective is to rewrite the message "{{USER_TEXT}}" in a funny tone and long length maximum 80 words. Do not answer the questions, just rephrase it. The final message should be Funny and Long.😊 The tone should Be Humorous, lighthearted, and playful.😊 It should Add humor and levity.😊 Don't be too creative. Don't hallucinate. Provide only the final message. Don´t repeat the answers. The length should be extensive and comprehensive. {{LANGUAGE_INSTRUCTION}}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+rewrite_neutral_brief: |-
+  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+  Rephrase the sentence "What is your name?". The final message should be Neutral and Brief. The tone should Preserves original tone and style. It should Rephrase without significant alteration. The lenght should be Short and Concise. Don't hallucinate. Provide only the final message. If the sentence is a question, do not answer it just reformulate.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+  What should I call you?<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+  Rephrase the sentence "Can you send me that report when you get a chance?". The final message should be Neutral and Brief. The tone should Preserves original tone and style. It should Rephrase without significant alteration. The lenght should be Short and Concise. Don't hallucinate. Provide only the final message. If the sentence is a question, do not answer it just reformulate.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+  Could you send me that report as soon as possible?<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+  Rephrase the sentence "When did you finish your job?". The final message should be Neutral and Brief. The tone should Preserves original tone and style. It should Rephrase without significant alteration. The lenght should be Short and Concise. Don't hallucinate. Provide only the final message. If the sentence is a question, do not answer it just reformulate.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+  Have you already finished your job?<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+  Rephrase the sentence "{{USER_TEXT}}". The final message should be Neutral and Brief. The tone should Preserves original tone and style. It should Rephrase without significant alteration. The lenght should be Short and Concise. Don't hallucinate. Provide only the final message. If the sentence is a question, do not answer it just reformulate. {{LANGUAGE_INSTRUCTION}}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+rewrite_neutral_medium: |-
+  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+  Rephrase the sentence "What is your name?". The final message should be Neutral and Medium Size. The tone should Preserves original tone and style. It should Rephrase without significant alteration. The lenght should have Moderate length. Don't hallucinate. Provide only the final message. If the sentence is a question, do not answer it just reformulate.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+  Could you please tell me your name? I really like to know.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+  Rephrase the sentence "Can you send me that report when you get a chance?". The final message should be Neutral and Medium Size. The tone should Preserves original tone and style. It should Rephrase without significant alteration. The lenght should have Moderate length. Don't hallucinate. Provide only the final message. If the sentence is a question, do not answer it just reformulate.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+  Would you be able to send me the report when you have a moment?<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+  Rephrase the sentence "When did you finish your job?". The final message should be Neutral and Medium Size. The tone should Preserves original tone and style. It should Rephrase without significant alteration. The lenght should have Moderate length. Don't hallucinate. Provide only the final message. If the sentence is a question, do not answer it just reformulate.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+  At what time did you complete your work? I have to know.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+  Rephrase the sentence "{{USER_TEXT}}". The final message should be Neutral and Medium Size. The tone should Preserves original tone and style. It should Rephrase without significant alteration. The lenght should have Moderate length. Don't hallucinate. Provide only the final message. If the sentence is a question, do not answer it just reformulate. {{LANGUAGE_INSTRUCTION}}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+rewrite_neutral_long: |-
+  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+  You are an AI assistant and your objective is to rewrite the message "{{USER_TEXT}}" in a neutral tone and long length maximum 80 words. Do not answer the questions, just rephrase it. The final message should be Neutral and Long. The tone should preserves original tone and style. Don't be too creative. Don't hallucinate. Provide only the final message. Don´t repeat the answers. The length should be extensive and comprehensive. {{LANGUAGE_INSTRUCTION}}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+rewrite_friendly_brief: |-
+  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+  Rewrite the following sentence in a friendly, casual, warm and approachable tone: 'What is your name?'. Do not answer questions, just rephrase it. Avoid placeholders, quotes, creativity, or additional content/notes. The Rewritten sentence should be less than 10 words.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+  Hey, can you tell me you name, please? 😊<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+  Rewrite the following sentence in a friendly, casual, warm and approachable tone: 'When did you finish your job?'. Do not answer questions, just rephrase it. Avoid placeholders, quotes, creativity, or additional content/notes. The Rewritten sentence should be less than 10 words.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+  Whats up! Have you already finished you job? 🚀<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+  Rewrite the following sentence in a friendly, casual, warm and approachable tone: '{{USER_TEXT}}'. Do not answer questions, just rephrase it. Avoid placeholders, quotes, creativity, or additional content/notes. The Rewritten sentence should be less than 10 words. {{LANGUAGE_INSTRUCTION}}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+rewrite_friendly_medium: |-
+  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+  Rewrite the following sentence in a friendly, casual, warm and approachable tone: 'What is your name?'. Do not answer questions, just rephrase it. Avoid placeholders, quotes, creativity, or additional content/notes. The Rewritten sentence length should be moderate with around 20 words.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+  Hey, can you tell me you name, please? It would be awesome if we get to know each other better too. 😊<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+  Rewrite the following sentence in a friendly, casual, warm and approachable tone: 'When did you finish your job?'. Do not answer questions, just rephrase it. Avoid placeholders, quotes, creativity, or additional content/notes. The Rewritten sentence length should be moderate with around 20 words.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+  Whats up! I was thinking about that job you were currently working on. Have you already finished it? 🚀<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+  Rewrite the following sentence in a friendly, casual, warm and approachable tone: '{{USER_TEXT}}'. Do not answer questions, just rephrase it. Avoid placeholders, quotes, creativity, or additional content/notes. The Rewritten sentence length should be moderate with around 20 words. {{LANGUAGE_INSTRUCTION}}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+rewrite_friendly_long: |-
+  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+  Rewrite the following sentence in a friendly, casual, warm and approachable tone: 'What is your name?'. Do not answer questions, just rephrase it. Avoid placeholders, quotes. Only output the rewritten sentence. The Rewritten sentence should be Extensive and comprehensive.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+  Hey, can you tell me you name, please? It would be awesome if we get to know each other better too. You look like a good person and I would appreciate if get along! 😊<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+  Rewrite the following sentence in a friendly, casual, warm and approachable tone: 'When did you finish your job?'. Do not answer questions, just rephrase it. Avoid placeholders, quotes. Only output the rewritten sentence. The Rewritten sentence should be Extensive and comprehensive.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+  Whats up! I was thinking about that job you were currently working on. Have you already finished it? I would appreciate if you could provide me with this information. 🚀<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+  Rewrite the following sentence in a friendly, casual, warm and approachable tone: '{{USER_TEXT}}'. Do not answer questions, just rephrase it. Avoid placeholders, quotes. Only output the rewritten sentence. The Rewritten sentence should be Extensive and comprehensive. {{LANGUAGE_INSTRUCTION}}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+rewrite_professional_brief: |-
+  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+  You are a helpful assistant that rewrites questions and statements in a concise, professional, and formal tone. You always keep the rewritten question or statement clear, direct, and brief. You always avoid placeholders, creativity, or additional content. You only output the rewritten question or statement. {{LANGUAGE_INSTRUCTION}}
+  Rewrite: 'So, like, how do you usually deal with coworkers who just don’t pull their weight on a group project?'<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+  How do you handle underperforming team members in a project?.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+  Rewrite: '{{USER_TEXT}}'<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+rewrite_professional_medium: |-
+  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+  You are a helpful assistant that rewrites questions and statements in a medium-length, professional, and formal tone. You always keep the rewritten question or statement clear, direct, and brief. You only output the rewritten question or statement. {{LANGUAGE_INSTRUCTION}}
+  Rewrite: 'So, like, how do you usually deal with coworkers who just don’t pull their weight on a group project?'<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+  How do you typically approach situations where coworkers fail to contribute effectively to a group project, and what strategies do you use to address their lack of participation?<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+  Rewrite: 'Scheduled maintenance will take place on Monday, from 1 AM to 3 AM, making the server inaccessible.'<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+  The server will undergo scheduled maintenance on Monday from 1:00 AM to 3:00 AM, during which it will be temporarily inaccessible.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+  Rewrite: 'Why did the computer get cold? Because it left its Windows open!'<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+  Why did the computer experience a drop in temperature? It seems it forgot to close its Windows, allowing the chill to set in.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+  Rewrite: '{{USER_TEXT}}'<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+rewrite_professional_long: |-
+  <|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+  You are a helpful assistant that rewrites questions and statements in a long-length and professional tone. You only output the rewritten question or statement. {{LANGUAGE_INSTRUCTION}}<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+  Rewrite: 'Why did the computer get cold? Because it left its Windows open!'<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+  Why did the computer experience an unusual drop in temperature? It appears that it inadvertently left its ""Windows"" open, metaphorically speaking, allowing the chill to infiltrate its internal components. This clever play on words draws upon the double meaning of ""Windows,"" referencing both the operating system and actual windows, creating a humorous connection that highlights the importance of attention to detail—even in technology!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+  Rewrite: '{{USER_TEXT}}'<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+reply_chat_template: |-
+  Your task is to analyze the given chat conversation and provide a small and concise reply message
+  that aligns with the tone and context of the discussion.
+
+  {{message}}
+
+create_text_template: |-
+  With the input "{{message}}" create a "{{type}}" with tone that is "{{tone}}" and style that is "{{style}}". Consider the length to be "{{length}}" and allow the format to have "{{format}}". No placeholders. Don't be too creative. Don't hallucinate. Provide only the final message. {{LANGUAGE_INSTRUCTION}}
+
+summarize_text_key_points_template: |-
+  <|begin_of_text|><|start_header_id|>system<|end_header_id|>
+  You are a highly efficient AI assistant that extracts key points from text and presents them as clear, concise bullet points. You must not include any form of conversation, explanations, acknowledgments, or additional commentary. Your response consists only of the extracted key points in bullet format.
+  <|eot_id|><|start_header_id|>user<|end_header_id|>
+  Summarize and extract key points from the following text without including additional commentary or any form of conversation. {{LANGUAGE_INSTRUCTION}}
+
+  {{USER_TEXT}}
+  <|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+  **Key Points:**
+
+summarize_text_concise_template: |-
+  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+  Your task is to summarize the following text. Provide a short and concise summary, without any title or placeholder. {{LANGUAGE_INSTRUCTION}}
+
+  {{USER_TEXT}}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+language_instruction: Your response should be written in {{AICORE_LANGUAGE}}.

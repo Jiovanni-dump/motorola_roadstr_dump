@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <!--
+     com.motorola.uxcore.platenablers1 should NOT be ever removed because the same is being used
+     in framework code to detect UxCore feature. The same is NOT being used by PlayStore.
+
+     To distinguish between different versions on PlayStore, com.motorola.uxcore.platenablersX can
+     be used where X>1.
+    -->
+    <feature             name="com.motorola.uxcore.platenablers1"/>
+    <unavailable-feature name="com.motorola.uxcore.platenablers1" prop="ro.mot.uxcore.enable"/>
+    <!-- Used by UxCore 2.x Series -->
+    <feature             name="com.motorola.uxcore.platenablers2"/>
+    <unavailable-feature name="com.motorola.uxcore.platenablers2" prop="ro.mot.uxcore.enable"/>
+    <!-- Used by UxCore 3.x series -->
+    <feature             name="com.motorola.uxcore.platenablers3"/>
+    <unavailable-feature name="com.motorola.uxcore.platenablers3" prop="ro.mot.uxcore.enable"/>
+</permissions>

@@ -1,0 +1,13 @@
+d0698a7962899ed9733425a893a98c287f680455  2.1.0.0  genie_llama3.2-3b-instruct_htp73_adapter_cmu_en
+832d596bb2423ccf25cf3f25078e48d0da5e6b03  2.1.0.0  genie_llama3.2-3b-instruct_htp73_adapter_cmu_es
+b10563e680dc1ab4f772ed0e7fb694a77a100031  2.1.0.0  genie_llama3.2-3b-instruct_htp73_adapter_cmu_ja
+03a2bf7b5b389a726592d921eef3ca28aa149287  2.1.0.0  genie_llama3.2-3b-instruct_htp73_adapter_cmu_pt
+53adf5050676b329c93d36ff2f8e7aa900733e0f  2.1.0.0  genie_llama3.2-3b-instruct_htp73_model
+16b08b547f97ef4a236d9a28358707d1f178ab47  1.1.0.0  genie_llama3.2-3b-instruct_htp73_soc86_config
+8ef7428082ce12567eb3e3f6c06e063ed12dc602  1.1.0.0  genie_llama3.2-3b-instruct_htp73_ssd_common
+f71386634a4056d1e508e5025deba2e56fd948b4  1.0.0.0  genie_llama3.2-1b-instruct_htp73_adapter_cmu_en
+df6753dfeb0c8371c6c6e9b3e38906758348fc3d  1.0.0.0  genie_llama3.2-1b-instruct_htp73_adapter_cmu_es
+48f36636c6a48301e49feae04d1ceb5cde77849c  1.0.0.0  genie_llama3.2-1b-instruct_htp73_adapter_cmu_ja
+3fff03166d214dddb7d303c2e906e97bd97ac376  1.0.0.0  genie_llama3.2-1b-instruct_htp73_adapter_cmu_pt
+a642713e9a09e30610cc46ee18f8bcc6c455c43e  1.0.0.0  genie_llama3.2-1b-instruct_htp73_model
+b6c1b2671c1b68ec3005a922acc2bea5cf8c6038  1.0.0.0  genie_llama3.2-1b-instruct_htp73_soc86_config

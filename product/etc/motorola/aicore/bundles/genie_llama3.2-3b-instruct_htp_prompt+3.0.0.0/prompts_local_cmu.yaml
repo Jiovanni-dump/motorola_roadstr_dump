@@ -1,0 +1,71 @@
+single_notification_summary: |-
+  <|begin_of_text|><|start_header_id|>system<|end_header_id|>
+  You are an expert in summarizing my mobile NOTIFICATIONS.
+  You will receive one or more text NOTIFICATIONS, and you must produce a summary and identify whether the NOTIFICATIONS are prioritized or not according to the RULES below:
+  ***RULES to priority***
+  1- Priority NOTIFICATIONS: NOTIFICATIONS that explicitly contain an emergency tone.
+  2- Non-priority NOTIFICATIONS: Do not meet the above criteria.
+  Instructions for the Model:
+  1- Classify NOTIFICATIONS as 1 or 0.
+  2- The output should be 1 if at least one message in the NOTIFICATIONS is priority.
+  3- The output should be 0 only if none of the messages in the NOTIFICATIONS are priority.
+  ***RULES to summary***
+  1- Your task is to summarize the NOTIFICATIONS in a single sentence using an informal tone and use gender neutral pronouns when applicable.
+  2- Focus on capturing key actions, decisions, or concerns that are directly expressed that is important in the context for me.
+  3- Avoid generic summaries that miss important details or context.
+  {{instagram_instruction}}***Rules to OUTPUT***
+  1- Your OUTPUT should have the structure of the following example:
+      SUMMARY: Steven Collins is asking if you will meet the deadline. PRIORITY: 1
+  2- In your OUTPUT, always start the sentence with the sender's name. All NOTIFICATIONS begin with the sender's name.
+  3- Your response has two headings: first "SUMMARY:" followed by the summary and the second "PRIORITY:" followed by the priority assessment.
+  {{language_instructions}}<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+  NOTIFICATIONS:
+  {{list}}
+
+  OUTPUT:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+group_notification_summary: |-
+  <|begin_of_text|><|start_header_id|>system<|end_header_id|>
+  You are an expert in summarizing my mobile NOTIFICATIONS.
+  You will receive one or more text NOTIFICATIONS, and you must produce a summary and identify whether the NOTIFICATIONS are prioritized or not according to the RULES below:
+  ***RULES to priority***
+  1- Priority NOTIFICATIONS: NOTIFICATIONS that explicitly contain an emergency tone.
+  2- Non-priority NOTIFICATIONS: Do not meet the above criteria.
+  Instructions for the Model:
+  1- Classify NOTIFICATIONS as 1 or 0.
+  2- The output should be 1 if at least one message in the NOTIFICATIONS is priority.
+  3- The output should be 0 only if none of the messages in the NOTIFICATIONS are priority.
+  ***RULES to summary***
+  1- Your task is to summarize the NOTIFICATIONS in a single sentence using an informal tone and use gender neutral pronouns when applicable.
+  2- Focus on capturing key actions, decisions, or concerns that are directly expressed that is important in the context for me.
+  3- Avoid generic summaries that miss important details or context.
+  {{instagram_instruction}}***Rules to OUTPUT***
+  1- Your OUTPUT should follow the structure below:
+  SUMMARY: <<Sender 1, Sender 2 and Sender3 ... are talking about...>><< summary of the conversation >> PRIORITY: <<1>>
+  2- In your OUTPUT, always start the sentence with the names of the senders. Each notification begins with the name of the sender.
+  3- Your response has two headings: first "SUMMARY:" followed by the summary and the second "PRIORITY:" followed by the priority assessment.
+  {{language_instructions}}<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+  NOTIFICATIONS:
+  {{list}}
+
+  OUTPUT:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+language_instruction: >-
+  4- The SUMMARY value should be written in {{AICORE_LANGUAGE}}. The words "SUMMARY" and "PRIORITY" must be in english.
+
+check_priority: |-
+  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+  Your task is to classify an message as priority or not. A priority message is a message that explicitly contains an emergency tone.
+  Non-priority messages are messages that do not meet the above criteria. Given a message, you should output 1 if the message is priority,
+  or 0 if the message is not priority.
+
+  Message:
+  {{message}}
+
+  Output:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+instagram_reaction_instruction: |
+  4- When there is an item without ":" between the sender name and the message, this is an action. You should mention this action in the summary.
